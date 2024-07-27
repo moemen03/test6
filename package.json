@@ -2,7 +2,7 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://{username}.github.io/{repo-name}/",
+  "homepage": "https://moemen03.github.io/test12/",
   "type": "module",
   "scripts": {
     "dev": "vite",
