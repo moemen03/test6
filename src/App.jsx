@@ -43,11 +43,11 @@ export default function App() {
 
     <>
 
-      {/* <RouterProvider router={route}>
-      </RouterProvider> */}
-
+      <RouterProvider router={route}>
+      </RouterProvider>
+{/* 
       <Navbar/>
-      <About/>
+      <About/> */}
 
     </>
 
