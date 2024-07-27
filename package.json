@@ -1,5 +1,6 @@
 {
   "name": "vite-project",
+  "homepage": "https://moemen03.github.io/test6/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,7 +14,9 @@
     "flowbite": "^2.4.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.25.1"
+    "react-router-dom": "^6.25.1",
+    "predeploy": "npm run build",
+		"deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
