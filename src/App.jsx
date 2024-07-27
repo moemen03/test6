@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, createHashRouter, RouterProvider } from "react-router-dom";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Home from "./Components/Home/Home";
@@ -7,7 +7,7 @@ import Layout from "./Components/Layout/Layout";
 
 export default function App() {
 
-  const route = createBrowserRouter([
+  const route = createHashRouter([
       {
         path: "/",
         element: <Layout/>,
